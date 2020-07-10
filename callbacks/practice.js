@@ -96,6 +96,15 @@ multiply(4, 3, function(answer){
 
 //Code Here 
 
+function contains(array, name, cb) {
+  if (array.includes(names)) {
+    cb(true)
+  } else {
+    cb(false)
+  }
+  
+}
+
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
   if(result === true){
