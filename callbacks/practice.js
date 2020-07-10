@@ -181,8 +181,14 @@ each(names, function(item, indice){
 */
 
 // Code here
- function getUserByld(array, id, cb) {
-   
+ function getUserById(array, id, cb) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].id ===  id) {
+      cb(array[i])
+      
+    }
+    
+  }
    
  }
 // Do not edit the code below.
