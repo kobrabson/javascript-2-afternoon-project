@@ -116,7 +116,7 @@ var user2 = {
 //Code Here
 
 user2.name = `Bryan G. Smith`
-user2.email = `bryan.smith@devmounta.in`
+user2[`email`] = `bryan.smith@devmounta.in`
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -128,6 +128,10 @@ user2.email = `bryan.smith@devmounta.in`
 */
 
 //Code Here
+
+let methodCollection = {
+
+}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
