@@ -158,6 +158,12 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
+function each(array, cb) {
+  for (let i = 0; i < array.length; i++) {
+    cb(array[i], i )
+    
+  }
+}
 
 // Do not edit the code below.
 each(names, function(item, indice){
@@ -175,7 +181,10 @@ each(names, function(item, indice){
 */
 
 // Code here
-
+ function getUserByld(array, id, cb) {
+   
+   
+ }
 // Do not edit the code below.
 var users = [
   {
