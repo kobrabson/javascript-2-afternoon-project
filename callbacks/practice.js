@@ -103,8 +103,9 @@ function contains(array, name, cb) {
       bool = true
       
     }
-    cb(bool)
+   
   }
+  cb(bool)
 }
 
 // Do not edit the code below.
@@ -127,6 +128,19 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
+
+function uniq(array, cb) {
+  for (let i = 0; i < array.length; i++) {
+   for (let j = 0; j < array.length; j++) {
+     if(array[i] === array[j] && i !== j){
+       array.splice(j, 1)
+      }
+      
+    }
+    
+  }
+  cb(array)
+}
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
