@@ -97,12 +97,14 @@ multiply(4, 3, function(answer){
 //Code Here 
 
 function contains(array, name, cb) {
-  if (array.includes(names)) {
-    cb(true)
-  } else {
-    cb(false)
+  let cool = false;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === name) {
+      bool = true
+      
+    }
+    cb(bool)
   }
-  
 }
 
 // Do not edit the code below.
