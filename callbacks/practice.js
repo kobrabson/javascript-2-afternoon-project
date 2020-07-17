@@ -97,7 +97,7 @@ multiply(4, 3, function(answer){
 //Code Here 
 
 function contains(array, name, cb) {
-  let cool = false;
+  let bool = false;
   for (let i = 0; i < array.length; i++) {
     if (array[i] === name) {
       bool = true
@@ -217,3 +217,14 @@ getUserById(users, '16t', function(user){
   console.log('The user with the id 16t has the email of ' + user.email + ' the name of ' + user.name + ' and the address of ' + user.address); 
 });
 // Do not edit the code above.
+
+// function findInArray( arr, value ) {
+//   for(let i =0; i < arr.length; i++)
+//   if (arr[i] === 3 ){
+//     return true
+//     else if  (arr[i] !== 3) {
+//       return false;
+//     }
+//   }
+// }
+
